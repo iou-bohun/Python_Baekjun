@@ -4,10 +4,7 @@ while(True):
         break
     else:
         lst.sort()
-        a = lst[2]
-        b = lst[1]
-        c = lst[0]
-        if (a * a == (b * b + c * c)):
+        if (lst[2] * lst[2] == (lst[1] * lst[1] + lst[0] * lst[0])):
             print("right")
         else:
             print("wrong")
